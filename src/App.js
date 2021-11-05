@@ -38,14 +38,10 @@ function App() {
     setLoading(false);
 
     setLoading(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // function gotoNextPage() {
-  //   setCurrentList(nextPage);
-  // }
-  // function gotoPrevPage() {
-  //   setCurrentList(prevPage);
-  // }
+  
   if (loading) return <p className="loading-text">Loading... Please Wait</p>;
   return (
     <div className="App">
