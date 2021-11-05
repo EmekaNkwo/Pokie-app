@@ -3,21 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: rgb(17, 17, 17);
+}
 .header {
   margin-bottom: 1.5rem;
   color: #fff;
-  background-color: rgb(3, 3, 56);
-  width: 100%;
-  padding: 0.8rem 0;
-}
-
-.header h1 {
+  text-transform: uppercase;
   font-size: 2.5rem;
-  font-family: "Montserrat Bold", sans-serif;
-  padding-bottom: 0.5rem;
   text-align: center;
-  margin: 0.8rem 0;
 }
 
 .loading-text {
@@ -40,7 +34,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
 }
 .main-container {
   display: flex;
@@ -57,13 +50,13 @@
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  background-color: #ffdf11;
+  background-color: #ffde00;
   transition: 0.3s;
   margin: 1rem 0;
 }
 
 .pokie-button:hover {
-  background-color: #e7cb13;
+  background-color: #ebce14;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -71,8 +64,8 @@
     font-size: 1.2rem;
   }
 
-  .header h1 {
-    font-size: 2rem;
+  .header {
+    font-size: 1.5rem;
   }
 
   .pokie-button {

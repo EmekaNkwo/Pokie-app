@@ -4,12 +4,13 @@
   align-items: center;
   justify-content: center;
   padding: 1.5rem 0;
-  margin: 0.3rem;
-  border: 1px solid #efefef;
-  border-radius: 0.2rem;
+  margin: 0.5rem;
+  border: 1px solid #ececec;
+  border-radius: 0.6rem;
   min-width: 160px;
+  background-color: rgb(41, 41, 41);
   text-align: center;
-  box-shadow: 0 3px 15px rgba(32, 32, 32, 0.205);
+  box-shadow: 0 3px 15px rgba(253, 198, 18, 0.322);
 }
 
 .pokie-container:hover {
@@ -23,10 +24,12 @@
   padding: 0.4rem 0.4rem;
   background-color: rgba(129, 129, 129, 0.3);
   margin-bottom: 1rem;
+  color: rgba(253, 198, 18);
 }
 
 h1 {
   font-size: 1.2rem;
+  color: #fff;
 }
 img {
   width: 120px;
@@ -34,7 +37,7 @@ img {
 }
 
 small {
-  color: rgb(3, 3, 56);
+  color: #fff;
   text-transform: capitalize;
 }
 
@@ -47,11 +50,11 @@ small {
 @media only screen and (max-width: 1200px) {
   .pokie-container {
     flex-direction: column;
-    min-width: 400px;
+    min-width: 270px;
   }
 
   img {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
   }
 }

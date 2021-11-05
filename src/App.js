@@ -37,18 +37,14 @@ function App() {
     loadPokies();
     setLoading(false);
 
-    setLoading(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  
   if (loading) return <p className="loading-text">Loading... Please Wait</p>;
   return (
     <div className="App">
-      <div className="header">
-        <h1>Pokemon Characters</h1>
-      </div>
       <div className="pokemon-container">
+        <h1 className="header">Welcome to Pokemon World</h1>
         <div className="main-container">
           {allpokie.map((pokemon, index) => (
             <PokemonList
@@ -59,7 +55,6 @@ function App() {
             />
           ))}
         </div>
-
         <button className="pokie-button" onClick={() => loadPokies()}>
           Load More
         </button>
